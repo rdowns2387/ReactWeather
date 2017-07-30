@@ -4,7 +4,10 @@ var React = require('react');
 
 var About = (props) =>{
   return (
-    <h4>This is the About component</h4>
+    <div>
+      <h4>Welcome to the About page</h4>
+      <p>This is a small test app that uses the Open Weather API to display the weather of a city via search</p>      
+    </div>
   );
 };
 module.exports = About;
